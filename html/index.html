@@ -4,29 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <h1 style="background-color: blue; color: azure;">
+        <h1>
             InstaPic
         </h1>
     </header>
     
     <main>
-        <label for ="username "  style="background-color: blue; color: azure; display: block;"> Nombre de Usuario</label>
-        <input type="text"  id="username"/>
-        <label for="password"> Contraseña</label>
-        <input type="password"  id="password"/>
-        
-        <a href="home.html">
-            Ingresar
-        </a> /
-        <a href="sign-up.html">
-            Registrarse
-        </a>
+        <div class="login-box">
+            <h2>Login</h2>
+            <input type="text"  id="username" placeholder="Username"/>
+
+            <input type="password"  id="password" placeholder="Password"/>
+            
+            <a href="home.html" class="primary">
+                Login
+            </a> 
+            <a href="sign-up.html" class="secondary">
+                Register
+            </a>
           
+        </div>
+        
     </main>
+    <aside>
+    </aside>
     <footer>
+        <ul>
+            <li><i class="fab fa-whatsapp" aria-hidden="true"></i>
+            </li>
+            <li><i class="fab fa-linkedin" aria-hidden="true"></i>
+            </li>
+            <li><i class="fab fa-twitter" aria-hidden="true"></i>
+            </li>
+        </ul>
         &copy; Derechos  Reservados-Información de contacto
      </footer>
 
